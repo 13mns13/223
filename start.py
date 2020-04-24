@@ -34,7 +34,7 @@ def main():
         if c_count>400:
             break
 
-    ids.remove(153656747)
+    #ids.remove(153656747)
     print("start")
     for id in ids:
         t = Thread(target=voice, args=(id,))
